@@ -1,4 +1,4 @@
-# Vagrant Provision with DB Backup and Import
+# Homestead Provision with DB Backup and Import
 
 Inspiration: [Laracast](https://laracasts.com/forum/?p=2038-vagrant-provision-databases-from-shell-script/0)
 
