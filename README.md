@@ -2,6 +2,8 @@
 
 Inspiration: [Laracast](https://laracasts.com/forum/?p=2038-vagrant-provision-databases-from-shell-script/0)
 
+_Note: I'm using laravel homestead not only for my laravel projects, but I'm using it on all of my PHP projects_
+
 Basically, homestead provision command will delete all your database (with all its data also) and create a fresh new database. So if you wanted to backup all your database and import all your data again, you can use this.
 
  1. Clone this repository
