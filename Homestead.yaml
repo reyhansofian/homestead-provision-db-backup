@@ -1,0 +1,26 @@
+---
+ip: "192.168.10.10"
+memory: 2048
+cpus: 1
+provider: virtualbox
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+folders:
+    - map: /home/development/
+      to: /home/vagrant/development
+
+sites:
+    - map: homestead.dev
+      to: /home/vagrant/development
+
+databases:
+    - name: homestead
+      dumppath: /home/vagrant/development/db/homestead # The path to folder where your sql files stored
+
+variables:
+    - key: APP_ENV
+      value: local
